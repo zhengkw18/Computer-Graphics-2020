@@ -14,11 +14,11 @@
 
 除却个别的大佬，从零入手最好的资料就是祖传代码和文档了，网上自然能找到不少：
 
-计3 古裔正学长的https://blog.csdn.net/zsyzgu/article/details/46592041，这份代码极其OO，但基础算法选了普通的RT，导致效果看起来不太行，不过我的SPPM基本是借鉴他的。
+计3 古裔正学长的https://blog.csdn.net/zsyzgu/article/details/46592041 ，这份代码极其OO，但基础算法选了普通的RT，导致效果看起来不太行，不过我的SPPM基本是借鉴他的。
 
-计6 n+e的https://github.com/Trinkle23897/Computational-Graphics-THU-2018，据说他的SPPM是假的，但至此之后所有人都知道了smallpt，所有人都学会了Bezier旋转面求交。
+计6 n+e的https://github.com/Trinkle23897/Computational-Graphics-THU-2018 ，据说他的SPPM是假的，但至此之后所有人都知道了smallpt，所有人都学会了Bezier旋转面求交。
 
-计7 MashPlant的https://github.com/MashPlant/computational_graphics_2019，写了体积光外的所有功能。
+计7 MashPlant的https://github.com/MashPlant/computational_graphics_2019 ，写了体积光外的所有功能。
 
 可以很明显看出一代更比一代强，毕竟前人打下的基础足够牢靠，只需要花一些时间通读一下，老老实实当一个缝合怪，做一个高仿并不是很难的事。这也导致通胀严重，内卷加剧，助教的评分标准几乎失效。当然，拿高分容易了许多。
 
@@ -50,7 +50,7 @@ SPPM：可以参考的祖传代码已经够多了吧
 
 参数曲面解析法求交：直接抄n+e的，简单易懂
 
-GPU并行加速：基于smallpt写CUDA，网格和镜面漫反射这样难改迭代的直接砍掉，最好渲染几个视频出来，或许已经有祖传代码了（见https://github.com/Guangxuan-Xiao/Computer-Graphics-2020）
+GPU并行加速：基于smallpt写CUDA，网格和镜面漫反射这样难改迭代的直接砍掉，最好渲染几个视频出来，或许已经有祖传代码了（见https://github.com/Guangxuan-Xiao/Computer-Graphics-2020 ）
 
 光线求交加速：三角网格和KD树也可以抄祖传代码，私以为我的KD树就写的不错（x
 
